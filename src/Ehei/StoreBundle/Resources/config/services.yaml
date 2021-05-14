@@ -1,6 +1,10 @@
 services:
   ehei_store_store:
-    class: App\Ehei\StoreBundle\Service\Store
+    class: Ehei\StoreBundle\Service\Store
     public: false
 
-  App\Ehei\StoreBundle\Service\Store: '@ehei_store_store'
+  Ehei\StoreBundle\Service\Store: '@ehei_store_store'
+
+  Ehei\StoreBundle\Controller\:
+    resource: '../../Controller/'
+    tags: ['controller.service_arguments']
