@@ -1,0 +1,15 @@
+{
+  "name": "ehei/store-bundle",
+  "version": "1.0.0",
+  "description": "An example of a separate bundle",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Ehei\\StoreBundle\\" : ""
+    }
+  },
+  "dependencies": {
+    
+  }
+}

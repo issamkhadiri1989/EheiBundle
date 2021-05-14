@@ -1,0 +1,3 @@
+ehei_homepage:
+  controller: App\Ehei\StoreBundle\Controller\DefaultController::index
+  path: /
