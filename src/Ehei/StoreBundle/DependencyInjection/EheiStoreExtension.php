@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Ehei\StoreBundle\DependencyInjection;
+namespace Ehei\StoreBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
