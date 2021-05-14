@@ -6,7 +6,7 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Ehei\\StoreBundle\\" : ""
+      "Ehei\\StoreBundle\\" : "src/Ehei/StoreBundle"
     }
   },
   "dependencies": {
